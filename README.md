@@ -9,9 +9,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.
 
 ## Screenshots:
-[]()
-[]()
-[]()
-[]()
-[]()
+[1]("./ss 1.png")
+[2]()
+[3]()
+[4]()
 
