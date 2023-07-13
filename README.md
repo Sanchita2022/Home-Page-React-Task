@@ -16,10 +16,11 @@ The page will reload when you make changes.
 ![4](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%204.png)
 
 # Mobile
-![1](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%205.png)
-![2](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%206.png)
-![3](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%207.png)
-![4](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%208.png)
-![4](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%209.png)
+
+![0](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%20mobile.png)
+![1](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%20mobile%202.png)
+![2](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%20mobile%203.png)
+![3](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%20mobile%204.png)
+![4](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%20mobile%205.png)
 
 
