@@ -1,0 +1,140 @@
+.InfoCard {
+    height: 40vh;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    background-color: #fafafa;
+    max-width: 100%;
+    width: fit-content;
+    z-index: 5;
+    position: relative;
+}
+/* .InfoCard .centerContainer {
+    margin: auto;
+    width: fit-content;
+} */
+.InfoCard img {
+    aspect-ratio: 1;
+    height: 90%;
+    width: auto;
+    border-radius: 20px;
+    margin: auto 0;
+}
+/* .InfoCard img:hover {
+    mix-blend-mode: luminosity;
+} */
+@media screen and (max-width: 720px) {
+    .InfoCard {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .InfoCard img {
+        margin: auto;
+        max-width: 348.5px;
+        width: 100%;
+        height: auto;
+    }
+    .rightContent {
+        padding: 20px 0;
+        width: 100%;
+    }
+    .rightContent > h2 {
+        line-height: 1.2em!important;
+    }
+    .rightContent > h2, .rightContent > h3, .rightContent > p {
+        padding: 10px 0;
+    }
+    .rightContent > a {
+        margin-left: 10px 0;
+    }
+}
+@media screen and (min-width: 721px) {
+    .InfoCard .rightContent{
+        min-width: 348.5px;
+        max-width: 650px;
+    }
+    .rightContent {
+        width: 55%;
+        margin: auto 0;
+        height: 80%;
+        padding: 20px;
+        align-content: start;
+    }
+    .rightContent > h2, .rightContent > h3 {
+        padding: 0;
+    }
+    .rightContent > p {
+        overflow-y: scroll;
+        max-height: 42%;
+        padding-right: 20px;
+    }
+}
+.rightContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightContent > h2, .rightContent > h3, .rightContent > p {
+    width: 100%;
+    margin: 0;
+}   
+.rightContent > h3 {
+    font-weight: normal;
+    height: fit-content;
+    margin-top: auto;
+    color: #2b2b2b;
+}
+.rightContent > h2 {
+    line-height: 1.6em;
+    height: fit-content;
+    color: #2b2b2b;
+    font-size: 1.4em;
+}
+.rightContent > p {
+    overflow: hidden;
+    color: #3b3b3b;
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+.rightContent > a {
+    text-decoration: none!important;
+    border: none;
+    font-size: 0.9em;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-bottom: auto;
+    color: inherit;
+    z-index: 2;
+}
+.rightContent > a > span {
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    padding: 10px 12px;
+    margin-right: 14px;
+    background-color: tomato;
+    color: white;
+}
+.rightContent > a > .ArrowButton {
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    margin-right: 14px;
+    background-color: tomato;
+    color: white;
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 40px;
+    z-index: -1;
+    padding: 0;
+    margin-top: -10px;
+    transition: all 200ms;
+}
+
+.rightContent > a:hover > .ArrowButton {
+    width: 170px;
+}
+
+.rightContent > a:hover{
+    color: white;
+}

@@ -1,0 +1,163 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav .logo {
+    display: inline-flex;
+    height: 100px;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+@media screen and (max-width : 380px) {
+    .upper-icons button {
+        width: 100%;
+        margin: 7px auto;
+    }
+    .upper-icons .bag {
+        padding: 0!important;
+    }
+    .upper-icons {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 720px) {
+    .Nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Nav .logo {
+        width:100%;
+        height: auto;
+        min-width: 100px;
+        max-width: 150px;
+    }
+    .Nav .logo img {
+        margin:auto;
+    }
+    .content {
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 380px;
+        width: 100%;
+        margin: auto;
+    }
+    .upper-icons button {
+        width: 110px;
+        margin: 7px;
+    }
+    .content h4, .content .search {
+        margin: 10px 30px;
+    }
+}
+
+@media screen and (min-width : 721px) {
+    .right-nav {
+        float: right;
+    }
+    .content {
+        justify-content: flex-end;
+        margin-left: auto;
+        /* width: fit-content; */
+    }
+    .upper-icons {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .upper-icons button {
+        padding: 10px 20px;
+        margin: 7px;
+    }    
+    .content .search {
+        margin: 20px;
+        padding-left: 14px;
+        border-left: solid silver thin;
+    }
+    .content h4 {
+        margin: auto 2%;
+    }
+    .right-nav button {
+        width: 110px;
+    }
+}
+
+.Nav .SignupButton {
+    color: tomato;
+    background-color: white;
+}
+
+.Nav .LoginButton {
+    color: white;
+    background-color: tomato;
+}
+
+.Nav .LoginButton > span {
+    font-size: x-large;
+    line-height: 0em;
+}
+
+.right-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-icons button {
+    padding: 10px 20px;
+    border: solid tomato thin;
+    border-radius: 7px;
+}
+
+.upper-icons {
+    height: fit-content;
+    display: flex;
+    margin: 10px auto;
+}
+
+/* .upper-icons .buttons {
+    justify-content: flex-end;
+    display: flex;
+} */
+
+.upper-icons .bag {
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+    border-right: solid silver thin;
+}
+
+.content {
+    display: flex;
+    border-top: solid silver thin;
+    margin-bottom: 10px;
+}
+
+.content h4 {
+    font-weight: normal;
+    color: #3b3b3b;
+    /* min-width: 86px; */
+    min-width: fit-content;
+}
+
+.content .search {
+    font-size: x-large;
+    width: fit-content;
+    border-left: none;
+}
+
+.content .search:active {
+    width: 100%;
+}
+
+.content a {
+    text-decoration: none;
+    color:#3b3b3b;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}

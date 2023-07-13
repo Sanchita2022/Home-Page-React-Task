@@ -1,0 +1,112 @@
+.rightcontent p{
+    overflow: hidden;
+}
+.primaryButton {
+    color: white;
+    background-color: tomato;
+    width: fit-content;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: solid tomato thin;
+    border-radius: 7px;
+    justify-content: left;
+}
+.HeroHeader, .Banner{
+    background-color: #e4e5f6;
+}
+.HeroHeader .Nav {
+    width: calc(100% - 40px);
+    top: 0;
+    z-index: 8;
+}
+.Banner {
+    padding: 0 8% 0 8%;
+    overflow: hidden;
+    display: flex;
+    width: calc(100% - 16%);
+}
+
+.InfoCard {
+    padding-top: 80px!important;
+}
+
+@media screen and (max-width: 480px) {
+    .Banner {
+        flex-direction: column;
+        height: fit-content;
+        width: calc(100% - 16%);
+    }
+    .Banner img {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .floatingBanner {
+        display: none;
+    }
+    
+    .Banner {
+        height: fit-content;
+        padding: 0 8% 0 8%;
+    }
+    .Banner img {
+        max-width: 400px;
+    }
+}
+@media screen and (min-width: 721px) {
+    .Banner {
+        height: 55vh;
+    }
+    .Banner .logo {
+        margin: 20px 40px;
+    }
+}
+.floatingBanner {
+    position: absolute;
+    width: 60vw;
+    height: fit-content;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 6;
+    bottom: 30px;
+    left: 20%;
+    box-shadow:#8474d622 0px 10px 30px;
+}
+.Banner .rightContent {
+    /* position: absolute; */
+    width: fit-content;
+    z-index: 6;
+    min-width: 234.5px;
+    height: fit-content;
+}
+/* .Banner .circle {
+    position: absolute;
+    aspect-ratio: 1;
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    background-color: peachpuff;
+    right: 8%;
+    bottom: 5%;
+    z-index: 0;
+} */
+.Banner h1 {
+    margin-bottom: 7px;
+    font-size:x-large;
+}
+.Banner p > span {
+    border-radius: 5px;
+    color: white;
+    background: orange;
+    padding: 3px 6px;
+}
+@media screen and (min-width:721px){
+    .InfoCard {
+        padding-top: 110px!important;
+    }
+    
+}
