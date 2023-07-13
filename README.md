@@ -10,9 +10,9 @@ The page will reload when you make changes.
 
 ## Screenshots:
 ### Desktop
-[1](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%201.png)
-[2](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%202.png)
-[3](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%203.png)
-[4](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%204.png)
+![1](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%201.png)
+![2](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%202.png)
+![3](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%203.png)
+![4](https://github.com/Sanchita2022/Home-Page-React-Task/blob/master/ss%204.png)
 
 # Mobile
